@@ -34,7 +34,6 @@ def display_products(product):
         print("chưa có sản phẩm nào")
     else:
         print("STT | ID  | TÊN SẢN PHẨM | GIÁ | SỐ LƯỢNG")
-        print("-" * 50)
 
         for index, product in enumerate(product_db, start=1):
             print(
